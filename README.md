@@ -42,6 +42,13 @@ Strategy Pattern is a behavioral design pattern that allows to define a family o
 The Command Pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
 It separates the sender (Invoker) from the receiver (Device).
 
+### 🧠 MVC Pattern – (2 Marks)
+
+The **MVC (Model-View-Controller)** pattern separates application logic into 3 components:
+- **Model**: Manages data (e.g., Student info)
+- **View**: Displays data (e.g., student details)
+- **Controller**: Handles input and updates model/view
+
 ---
 
 ## 🧮 Data Structures & Algorithms – Thinking in Code
