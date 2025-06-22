@@ -1,4 +1,5 @@
-# 🌱 DeepSkilling JavaFSE – Week 1: Engineering Concepts
+# 🌱 DeepSkilling JavaFSE
+# 🥇 Week 1: Engineering Concepts
 
 ## 📚 Table of Contents
 
@@ -42,12 +43,16 @@ Strategy Pattern is a behavioral design pattern that allows to define a family o
 The Command Pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
 It separates the sender (Invoker) from the receiver (Device).
 
-### 🧠 MVC Pattern – (2 Marks)
+### 🧠 MVC Pattern 
 
 The **MVC (Model-View-Controller)** pattern separates application logic into 3 components:
 - **Model**: Manages data (e.g., Student info)
 - **View**: Displays data (e.g., student details)
 - **Controller**: Handles input and updates model/view
+
+### 🔧 Dependency Injection
+
+Dependency Injection (DI) is a design principle where a class receives its required objects, or dependencies, from an external source rather than creating them internally. This approach helps achieve loose coupling between classes and makes the application easier to test and maintain.
 
 ---
 
