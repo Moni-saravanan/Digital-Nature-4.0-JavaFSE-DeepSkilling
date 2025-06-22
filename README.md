@@ -6,8 +6,9 @@
 - [Data Structures & Algorithms – Thinking in Code](#-data-structures--algorithms--thinking-in-code)
 - [Data Structures Practiced](#-data-structures-practiced)
 
-## Engineering Concepts
+
 ---
+## Engineering Concepts
 
 ## 🎯 Design Patterns – Principles in Practice
 
@@ -34,7 +35,6 @@ Think of it as a gatekeeper. The Proxy acts on behalf of another object, control
 ### 📢 Observer Pattern
 When one change needs to ripple across multiple components — Observer does the magic. It maintains a “subscription” list. When the state changes, all subscribers are updated automatically. A real-world analogy: a news channel sending alerts to subscribed users.
 
----
 
 ## 🧮 Data Structures & Algorithms – Thinking in Code
 
@@ -78,5 +78,3 @@ When a method solves a problem by calling itself with smaller inputs — that’
 - **Java Object Arrays** – *Used in practical cases like searching books by title or author.*
 
 ---
-
-> ✨ _Keep building. Keep refining. The foundation you're laying today will support amazing things tomorrow._
