@@ -2,15 +2,11 @@ public class Student {
     private String id;
     private String name;
     private String grade;
-
-    // Constructor
     public Student(String id, String name, String grade) {
         this.id = id;
         this.name = name;
         this.grade = grade;
     }
-
-    // Getters & Setters
     public String getId() {
         return id;
     }
