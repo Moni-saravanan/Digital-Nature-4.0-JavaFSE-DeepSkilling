@@ -8,7 +8,7 @@
 
 
 ---
-## Engineering Concepts
+## 💡 Engineering Concepts
 
 ## 🎯 Design Patterns – Principles in Practice
 
@@ -35,6 +35,7 @@ Think of it as a gatekeeper. The Proxy acts on behalf of another object, control
 ### 📢 Observer Pattern
 When one change needs to ripple across multiple components — Observer does the magic. It maintains a “subscription” list. When the state changes, all subscribers are updated automatically. A real-world analogy: a news channel sending alerts to subscribed users.
 
+---
 
 ## 🧮 Data Structures & Algorithms – Thinking in Code
 
