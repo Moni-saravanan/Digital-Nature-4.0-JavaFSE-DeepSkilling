@@ -5,7 +5,7 @@
 
 - [Design Patterns – Principles in Practice](#-design-patterns--principles-in-practice)
 - [Data Structures & Algorithms – Thinking in Code](#-data-structures--algorithms--thinking-in-code)
-- [Data Structures Practiced](#-data-structures-practiced)
+- [Data Structures Practiced]([#-data-structures-practiced](https://github.com/Moni-saravanan/Digital-Nature-4.0-JavaFSE-DeepSkilling/blob/main/README.md#%EF%B8%8F-data-structures-practiced))
 
 
 ---
