@@ -10,7 +10,7 @@
 ---
 ## 💡 Engineering Concepts
 
-## 🎯 Design Patterns – Principles in Practice
+## 🎨 Design Patterns – Principles in Practice
 
 Design patterns are the secret sauce of clean, modular, and scalable code. Think of them as *battle-tested strategies* to solve recurring problems in software architecture.
 
@@ -34,6 +34,9 @@ Think of it as a gatekeeper. The Proxy acts on behalf of another object, control
 
 ### 📢 Observer Pattern
 When one change needs to ripple across multiple components — Observer does the magic. It maintains a “subscription” list. When the state changes, all subscribers are updated automatically. A real-world analogy: a news channel sending alerts to subscribed users.
+
+### 🎯 Strategy Pattern
+Strategy Pattern is a behavioral design pattern that allows to define a family of algorithms, put each of them in a separate class, and make their objects interchangeable.
 
 ---
 
