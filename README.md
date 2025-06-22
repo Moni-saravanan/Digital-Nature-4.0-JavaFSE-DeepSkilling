@@ -1,4 +1,5 @@
-# 🌱 DeepSkilling JavaFSE – Week 1: Engineering Concepts
+# 🌱 DeepSkilling JavaFSE
+# 🥇 Week 1: Engineering Concepts
 
 ## 📚 Table of Contents
 
