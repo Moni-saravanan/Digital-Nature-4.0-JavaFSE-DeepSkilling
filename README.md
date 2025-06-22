@@ -38,6 +38,10 @@ When one change needs to ripple across multiple components — Observer does the
 ### 🎯 Strategy Pattern
 Strategy Pattern is a behavioral design pattern that allows to define a family of algorithms, put each of them in a separate class, and make their objects interchangeable.
 
+### 🕹️ Command Pattern
+The Command Pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
+It separates the sender (Invoker) from the receiver (Device).
+
 ---
 
 ## 🧮 Data Structures & Algorithms – Thinking in Code
