@@ -3,9 +3,9 @@
 
 ## 📚 Table of Contents
 
-- 1. Design Patterns – Principles in Practice
-- 2. Data Structures & Algorithms – Thinking in Code
-- 3. PL/SQL: Control Structures, Error Handling, Procedures, Functions, Triggers, Cursors, Packages
+1. Design Patterns – Principles in Practice
+2. Data Structures & Algorithms – Thinking in Code
+3. PL/SQL: Control Structures, Error Handling, Procedures, Functions, Triggers, Cursors, Packages
 
 
 ---
