@@ -3,9 +3,9 @@
 
 ## 📚 Table of Contents
 
-- [Design Patterns – Principles in Practice](#-design-patterns--principles-in-practice)
-- [Data Structures & Algorithms – Thinking in Code](#-data-structures--algorithms--thinking-in-code)
-- [Data Structures Practiced](#-data-structures-practiced)
+- 1. Design Patterns – Principles in Practice
+- 2. Data Structures & Algorithms – Thinking in Code
+- 3. PL/SQL: Control Structures, Error Handling, Procedures, Functions, Triggers, Cursors, Packages
 
 
 ---
@@ -98,3 +98,35 @@ When a method solves a problem by calling itself with smaller inputs — that’
 - **Java Object Arrays** – *Used in practical cases like searching books by title or author.*
 
 ---
+
+## 💾 PL/SQL Concepts Covered
+
+**Overview:** PL/SQL is Oracle's procedural extension to SQL. It supports logical programming with structures like conditions, loops, procedures, and more.
+
+### ✅ Control Structures:
+- Enable conditional execution and looping.
+- They include IF-THEN, CASE, WHILE, FOR, and LOOP statements to guide flow.
+
+### ⚠️ Error Handling:
+-  Allows graceful recovery from errors.
+-  Use EXCEPTION blocks to catch and handle issues like invalid data or division by zero.
+
+### 🧩 Stored Procedures:
+- Blocks of SQL code that perform specific tasks.
+- They can accept inputs and perform actions such as updates or calculations without returning values.
+
+### 🧮 Functions: 
+- Similar to procedures but must return a single value.
+- Often used for computations like totals, age, or balance checks, and can be embedded in SQL queries.
+
+### 🚨 Triggers:
+- Automatically execute in response to database changes.
+- Example: updating a timestamp after a record is modified or logging inserts.
+
+### 🔁 Cursors: 
+- Used to handle query result sets row-by-row.
+- Helpful when you need to iterate through multiple rows and apply logic to each.
+
+### 📦 Packages: 
+- Containers for logically related procedures, functions, and variables.
+- Improves code organization and reuse; has a declaration (spec) and implementation (body). Group related procedures/functions into a reusable module.
