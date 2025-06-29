@@ -1,4 +1,4 @@
--- Scenario 1: Generate monthly statements for all customers
+-- Scenario 1: 
 declare
    cursor cur_statements is
    select c.customerid,
@@ -32,7 +32,7 @@ begin
 end;
 /
 
--- Scenario 2: Apply annual fee to all accounts
+-- Scenario 2:
 declare
    cursor cur_accounts is
    select accountid,
@@ -49,7 +49,7 @@ begin
 end;
 /
 
--- Scenario 3: Update interest rates for all loans (example policy: reduce by 0.5%)
+-- Scenario 3: 
 declare
    cursor cur_loans is
    select loanid,
