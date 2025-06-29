@@ -1,0 +1,2 @@
+20:35:54.445 [main] ERROR c.e.s.logging.LoggingExample - this is an error message
+20:35:54.448 [main] WARN  c.e.s.logging.LoggingExample - this is an warning message
