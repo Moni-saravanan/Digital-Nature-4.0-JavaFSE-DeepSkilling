@@ -1,4 +1,4 @@
--- Scenario 1: Process monthly interest (1%) for all savings accounts
+-- Scenario 1:
 create or replace procedure processmonthlyinterest is
 begin
    update accounts
@@ -9,7 +9,7 @@ begin
 end;
 /
 
--- Scenario 2: Update salary with bonus percentage for a department
+-- Scenario 2: 
 create or replace procedure updateemployeebonus (
    p_dept      varchar2,
    p_bonus_pct number
@@ -23,7 +23,7 @@ begin
 end;
 /
 
--- Scenario 3: Transfer funds between customer accounts with balance check
+-- Scenario 3: 
 create or replace procedure transferfunds (
    p_sourceacc number,
    p_destacc   number,
