@@ -1,3 +1,4 @@
+-- Scenario 1:
 create or replace procedure safetransferfunds (
    p_fromacc number,
    p_toacc   number,
@@ -32,7 +33,7 @@ exception
 end;
 /
 
--- Scenario 2: Update salary procedure with error logging
+-- Scenario 2: 
 create or replace procedure updatesalary (
    p_empid      number,
    p_percentage number
@@ -57,7 +58,7 @@ exception
 end;
 /
 
--- Scenario 3: Add new customer with exception check
+-- Scenario 3: 
 create or replace procedure addnewcustomer (
    p_id      number,
    p_name    varchar2,
