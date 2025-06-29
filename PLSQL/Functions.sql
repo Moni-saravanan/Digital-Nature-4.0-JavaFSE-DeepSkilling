@@ -1,4 +1,4 @@
--- Scenario 1: Function to calculate customer age
+-- Scenario 1:
 create or replace function calculateage (
    p_dob date
 ) return number is
@@ -14,7 +14,7 @@ begin
 end;
 /
 
--- Scenario 2: Function to calculate monthly installment
+-- Scenario 2:
 create or replace function calculatemonthlyinstallment (
    p_loanamount number,
    p_annualrate number,
@@ -32,7 +32,7 @@ begin
 end;
 /
 
--- Scenario 3: Function to check sufficient balance
+-- Scenario 3:
 create or replace function hassufficientbalance (
    p_accountid number,
    p_amount    number
