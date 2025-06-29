@@ -1,4 +1,4 @@
--- Scenario 1: Package for Customer Management
+-- Scenario 1:
 create or replace package customermanagement is
    procedure addcustomer (
       p_id      number,
@@ -62,7 +62,7 @@ create or replace package body customermanagement is
 end;
 /
 
--- Scenario 2: Package for Employee Management
+-- Scenario 2:
 create or replace package employeemanagement is
    procedure hireemployee (
       p_id       number,
@@ -130,7 +130,7 @@ create or replace package body employeemanagement is
 end;
 /
 
--- Scenario 3: Package for Account Operations
+-- Scenario 3:
 create or replace package accountoperations is
    procedure openaccount (
       p_accid   number,
