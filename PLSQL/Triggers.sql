@@ -1,4 +1,4 @@
--- Scenario 1: Update LastModified when customer is updated
+-- Scenario 1: 
 create or replace trigger updatecustomerlastmodified before
    update on customers
    for each row
@@ -7,7 +7,7 @@ begin
 end;
 /
 
--- Scenario 2: Insert into AuditLog on transaction insert
+-- Scenario 2: 
 create or replace trigger logtransaction after
    insert on transactions
    for each row
@@ -24,7 +24,7 @@ begin
 end;
 /
 
--- Scenario 3: Enforce transaction rules
+-- Scenario 3: 
 create or replace trigger checktransactionrules before
    insert on transactions
    for each row

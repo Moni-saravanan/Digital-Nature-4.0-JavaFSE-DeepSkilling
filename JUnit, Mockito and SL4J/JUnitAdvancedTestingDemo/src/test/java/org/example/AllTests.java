@@ -11,5 +11,4 @@ import org.junit.platform.suite.api.Suite;
         OrderedTests.class
 })
 public class AllTests {
-    // This class remains empty; used only as a holder for the above annotations
 }

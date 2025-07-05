@@ -11,7 +11,7 @@ public class BankAccountTest {
 
     @Before
     public void setUp() {
-        // Arrange
+        
         account = new BankAccount();
         account.deposit(100);
     }
@@ -23,19 +23,19 @@ public class BankAccountTest {
 
     @Test
     public void testWithdraw() {
-        // Act
+       
         account.withdraw(40);
 
-        // Assert
+       
         assertEquals(60, account.getBalance());
     }
 
     @Test
     public void testDeposit() {
-        // Act
+        
         account.deposit(50);
 
-        // Assert
+        
         assertEquals(150, account.getBalance());
     }
 }
